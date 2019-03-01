@@ -7,6 +7,7 @@ let counter;
 let cnv, myRec, btn, txt;
 
 function setup() {
+    //Jeg sætter en kommentar her
     let SpeechRecognition = window.webkitSpeechRecognition ||
         window.mozSpeechRecognition ||
         window.msSpeechRecognition ||
