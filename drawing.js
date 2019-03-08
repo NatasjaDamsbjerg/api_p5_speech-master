@@ -78,6 +78,10 @@ function showResult() {
             case 'green':
             case 'screen':
               pen.col = color(0,255,0);
+            case 'red':
+              pen.col = color(255,0,0);
+            case 'blue':
+              pen.col = color(0,0,255);
             default:
               direction = "stop"
           }
