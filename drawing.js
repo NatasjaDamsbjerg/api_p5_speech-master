@@ -71,10 +71,13 @@ function showResult() {
               break;
             case 'bigger':
               pen.size += 5;
+              break;
             case 'smaller':
               pen.size -= 5;
+              break;
             case 'green':
-              pen.col = color(255,0,0);
+            case 'screen':
+              pen.col = color(0,255,0);
             default:
               direction = "stop"
           }
