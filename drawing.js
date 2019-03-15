@@ -30,6 +30,7 @@ function setup() {
         size: 6,
         col: color(255,255,255,150),
         show: function(){
+            noStroke()
             fill(this.col)
             ellipseMode(CENTER)
             ellipse(this.x, this.y, this.size, this.size)
@@ -78,10 +79,13 @@ function showResult() {
             case 'green':
             case 'screen':
               pen.col = color(0,255,0);
+              break;
             case 'red':
               pen.col = color(255,0,0);
+              break;
             case 'blue':
               pen.col = color(0,0,255);
+              break;
             default:
               direction = "stop"
           }
